@@ -1,0 +1,38 @@
+{
+  "name": "state-your-case",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,.vue src",
+    "lint:fix": "eslint --ext .ts,.vue src --fix"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.6.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "unplugin-auto-import": "^0.11.2",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
