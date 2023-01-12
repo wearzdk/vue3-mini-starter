@@ -16,7 +16,6 @@ module.exports = {
   },
   extends: [
     './.eslintrc-auto-import.json',
-    'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended', // 添加 prettier 插件
@@ -26,12 +25,9 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  plugins: ['vue', '@typescript-eslint', 'import'],
+  plugins: ['vue', '@typescript-eslint'],
   rules: {
     'no-console': 'off',
-    'import/no-unresolved': 'off',
-    'import/extensions': 'off',
-    'import/no-extraneous-dependencies': 'off',
     'vue/multi-word-component-names': [
       'error',
       {

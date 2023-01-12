@@ -1,7 +1,38 @@
 {
   "prettier.enable": false,
-  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[ts]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  // 自动格式化
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "files.associations": {
+    "*.css": "css"
+  },
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.nodeEnv": "",
+  "eslint.nodePath": "",
+  "eslint.format.enable": true,
 }
