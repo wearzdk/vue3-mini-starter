@@ -1,7 +1,7 @@
 {
-  "name": "state-your-case",
+  "name": "vue3-mini-starter",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,28 +11,29 @@
     "lint:fix": "eslint --ext .ts,.vue src --fix"
   },
   "dependencies": {
+    "@vueuse/core": "^9.10.0",
     "nprogress": "^0.2.0",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.1.0",
-    "vue": "^3.2.37",
-    "vue-router": "^4.1.5"
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@types/node": "^18.11.2",
+    "@types/node": "^18.11.18",
     "@types/nprogress": "^0.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
-    "@typescript-eslint/parser": "^5.40.1",
-    "@vitejs/plugin-vue": "^3.1.0",
-    "eslint": "^8.25.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.31.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.6.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.6.4",
-    "unplugin-auto-import": "^0.11.2",
-    "vite": "^3.1.0",
-    "vue-tsc": "^0.40.4"
+    "eslint-plugin-vue": "^9.8.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4",
+    "unplugin-auto-import": "^0.12.1",
+    "vite": "^4.0.4",
+    "vue-tsc": "^1.0.24"
   }
 }
