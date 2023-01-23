@@ -11,7 +11,7 @@
     "lint:fix": "eslint --ext .ts,.vue src --fix"
   },
   "dependencies": {
-    "@vueuse/core": "^9.10.0",
+    "@vueuse/core": "^9.11.1",
     "nprogress": "^0.2.0",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
