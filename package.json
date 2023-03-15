@@ -13,6 +13,7 @@
   "dependencies": {
     "@vueuse/core": "^9.13.0",
     "nprogress": "^0.2.0",
+    "pinia": "^2.0.33",
     "sass": "^1.59.3",
     "sass-loader": "^13.2.0",
     "vue": "^3.2.47",
