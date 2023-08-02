@@ -31,6 +31,9 @@ devDependencies:
   '@types/nprogress':
     specifier: ^0.2.0
     version: registry.npmmirror.com/@types/nprogress@0.2.0
+  '@unocss/reset':
+    specifier: ^0.54.1
+    version: registry.npmmirror.com/@unocss/reset@0.54.1
   '@unocss/transformer-directives':
     specifier: ^0.54.0
     version: registry.npmmirror.com/@unocss/transformer-directives@0.54.0
@@ -1123,6 +1126,12 @@ packages:
     resolution: {integrity: sha512-zxvr96hVsmvJtxCLatLSCc67RBEgqvVDhEtkIFxIz5oCJzxvipJTGdKxM4F6Akyzx1A+q7zM8dimqvmC6D5Idw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/reset/-/reset-0.54.0.tgz}
     name: '@unocss/reset'
     version: 0.54.0
+    dev: true
+
+  registry.npmmirror.com/@unocss/reset@0.54.1:
+    resolution: {integrity: sha512-qZcmybayQTX4QP7ya7jteN9IySU/ViK8HcCpixHA1ttUrsQeSURgdy01E74p+TsWDH0SY7vYmOy+HbYfQNycqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/reset/-/reset-0.54.1.tgz}
+    name: '@unocss/reset'
+    version: 0.54.1
     dev: true
 
   registry.npmmirror.com/@unocss/scope@0.54.0:

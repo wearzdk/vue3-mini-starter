@@ -1,8 +1,12 @@
 {
   "recommendations": [
     "Vue.volar",
-    "dbaeumer.vscode-eslint",
+    "antfu.iconify",
+    "antfu.unocss",
     "antfu.vite",
-    "esbenp.prettier-vscode"
+    "antfu.goto-alias",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
