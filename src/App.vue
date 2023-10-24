@@ -17,7 +17,7 @@ const toggleDark = useToggle(dark)
         <span v-else class="i-mdi-weather-sunny" />
       </button>
     </div>
-    <router-view />
+    <RouterView />
   </div>
 </template>
 
